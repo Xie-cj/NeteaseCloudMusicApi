@@ -28,7 +28,7 @@ app.use((req, res, next) => {
     res.set({
       'Access-Control-Allow-Credentials': true,
 //       'Access-Control-Allow-Origin': req.headers.origin || '*',
-      'Access-Control-Allow-Origin': 'music.xcj.im',
+      'Access-Control-Allow-Origin': 'https://music.xcj.im',
       'Access-Control-Allow-Headers': 'X-Requested-With,Content-Type',
       'Access-Control-Allow-Methods': 'PUT,POST,GET,DELETE,OPTIONS',
       'Content-Type': 'application/json; charset=utf-8',
